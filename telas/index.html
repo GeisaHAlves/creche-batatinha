@@ -5,27 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creche Batatinha</title>
-
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/cadastro.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
   </head>
 
   <body>
     <header>
-      <nav id="navbar">
-        <a href="index.html" class="logo"
-          ><img
-            src="../assets/img/logo.png"
-            alt="Logo da Creche Batatinha"
-        /></a>
-      </nav>
+      <div class="caixa">
+        <a href="index.html"><img src="../assets/img/Logo.svg" /></a>
+        <nav>
+          <ul>
+            <li><a href="listagem.html">Ver lista de Miaus</a></li>
+            <li><a href="cadastro.html">Cadastrar Miau</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
+      <div class="principal">
         <h1>Boas-Vindas a Creche Batatinha,</h1>
         <h2>Seu Miau Feliz</h2>
+      </div>
 
+      
+      <ul class="animais">
+        <h2>Adote Seu Miau</h2>
+        <li>
+          <img src="../assets/img/ava (1).png" />
+          <p class="descricao">Raça - ()</p>
+          <p class="contato">Contato</p>
+        </li>
+        <li>
+          <img src="../assets/img/ava (2).png" />
+          <p class="descricao">Raça - ()</p>
+          <p class="contato">Contato</p>
+        </li>
+        <li>
+          <img src="../assets/img/ava (3).png" />
+          <p class="descricao">Raça - ()</p>
+          <p class="contato">Contato</p>
+        </li>
+        <li>
+          <img src="../assets/img/ava (4).png" />
+          <p class="descricao">Raça - ()</p>
+          <p class="contato">Contato</p>
+        </li>
+      </ul>
     </main>
 
+    <footer>
+      <ul class="footer-icons">
+        <li>
+          <img src="../assets/img/Instagram.jpg" />
+        </li>
+        <li>
+          <img src="../assets/img/facebook.png" />
+        </li>
+        <li>
+          <img src="../assets/img/twitter.jpg" />
+        </li>
+        <li>
+          <img src="../assets/img/WhatsApp.jpg" />
+        </li>
+        <li>
+          <section class="container">
+            <div>
+              <fieldset>
+                <legend
+                  class="rodapePrincipal-contatoForm-legend"
+                  for="email-contato"
+                >
+                  Entre em contato conosco
+                </legend>
+                <div class="rodapePrincipal-contatoForm-fieldset">
+                  <input
+                    class="rodapePrincipal-contatoForm-emailInput"
+                    type="email"
+                    name="email-contato"
+                    id="email-contato"
+                  />
+                  <button
+                    class="rodapePrincipal-contatoForm-submit"
+                    type="submit"
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </fieldset>
+            </div>
+          </section>
+        </li>
+      </ul>
 
-
+      <p class="copyright">&copy; Creche Batatinha - 2023</p>
+    </footer>
   </body>
 </html>
