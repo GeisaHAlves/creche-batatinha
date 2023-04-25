@@ -63,7 +63,6 @@ nav li:nth-child(2) a:hover {
 /*====================================================*/
 
 section {
-    /* background-color: #F2F2F2; */
     height: 100vh; /* Define a altura da seção como 100% da altura da janela de visualização */
      /* flex-grow: 1;Faz com que a seção ocupe o espaço restante disponível */
 }
@@ -74,13 +73,11 @@ section {
     margin: 0 auto;
     margin-top: 64px;
     width: 760px;
-    padding: 20px 0;
+    padding: 40px 0;
     align-items: center;
     background-color: #FFFFFF;
     justify-content: space-between;
     border-radius: 8px;
-    /* max-width: 752px;
-    padding: 40px; */
 }
 
 .principal h1 {
@@ -88,34 +85,49 @@ section {
     font-size: 32px;
 }
 
-/* .fotomiau {
-
-} */
-
-/* .imgcontainer {
+.fotomiau {
     position: relative;
-} */
-
-.quadrado {
-    width: 135px;
+    text-align: center;
+    width: 135px; /*tamanho da div definido*/
     height: 145px;
-    /* position: absolute; */
-    /* left: 652px;
-    top: 259px; */
-    background: rgba(000, 000, 000, 0.4);
-    border-radius: 4px;
+    margin-top: 32px; /*distancia h1*/
 }
 
-/* #fotogatinho {
-    position: absolute;
-} */
+.fotomiau img {
+    margin: 0;
+    position: absolute; /*Posicionado em relação com elemento pai - fotomiau*/
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /*centraliza imagem*/
+}
 
+.fotomiau .enviofotogato {
+    position: absolute; /*repete pra div da tag p*/
+    width: 100%; /*cobre o tamanho da div pai, ocupando 100% do espaço*/
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*centraliza div que tem a tag p - texto*/
+}
+
+.fotomiau .enviofotogato p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*centraliza texto*/
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80%;
+}
 
 .formulario {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-top: 24px; */
 }
 
 .formulario input {
@@ -148,14 +160,8 @@ section {
     color:#EB339B;
 }
 
-/* .botoes input:hover {
-
-} */
-
 #salvardados {
     background-color: #9F9F9F;
     color: #FFFFFF;
     border: none;
 }
-
-
