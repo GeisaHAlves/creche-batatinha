@@ -1,26 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&family=Rokkitt&display=swap");
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-body * {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  padding: 30px 0;
-  margin: 0 auto;
-}
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F2F2F2
 }
 
 header {
@@ -37,7 +22,7 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
+  list-style-type: none; 
   padding: 0;
   display: flex;
   width: 350px;
@@ -49,70 +34,88 @@ nav li a {
   font-weight: 400;
   text-decoration: none;
   line-height: 24px;
-  border: 1px solid #eb339b;
+  border: 1px solid #EB339B;
   border-radius: 4px;
   padding: 10px 20px;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav li:nth-child(1) a {
-  color: #eb339b;
+  color: #EB339B;
 }
 
 nav li:nth-child(1) a:hover {
-  color: #ffffff;
-  background-color: #eb339b;
+  color: #FFFFFF;
+  background-color: #EB339B;
   transition: 0.3s;
 }
 
 nav li:nth-child(2) a {
-  color: #ffffff;
-  background-color: #eb339b;
+  color: #FFFFFF;
+  background-color: #EB339B;
 }
 
 nav li:nth-child(2) a:hover {
-  color: #eb339b;
-  background-color: #ffffff;
+  color: #EB339B;
+  background-color: #FFFFFF;
   transition: 0.3s;
 }
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  top: 110px;
-  right: 0;
+
+/*====================================================*/
+
+
+
+.principal h1 {
+position: absolute;
+width: 752px;
+height: 156px;
+left: 344px;
+top: 148px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+display: flex;
+align-items: center;
+color: #111111;
+
 }
 
-nav li {
-  display: inline;
-  margin: 0 0 0 20px;
-}
-
-nav a {
-  color: rgb(235, 118, 197);
-  border: rgb(235, 118, 197) solid 2px;
-  border-radius: 5%;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: none;
+.principal h2 {
+position: absolute;
+width: 624px;
+height: 56px;
+left: 344px;
+top: 328px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+color: rgba(17, 17, 17, 0.48);
 }
 
 footer {
   background-color: pink;
-}
+  margin-top: 150px; 
+  padding-top: 35px;
+  
+  }
 
-.produtos li {
+.animais li {
   display: inline-flex;
   flex-direction: column;
   text-align: center;
   width: 10%;
-  vertical-align: top;
+  vertical-align: middle;
   margin: 1.5% 1.5% 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: #000000 solid 2px;
+  border:#111111 solid 2px;
   border-radius: 10px;
   transition: 300ms ease;
 }
