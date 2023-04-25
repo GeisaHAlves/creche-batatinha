@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&family=Rokkitt&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 30px 0;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background: white;
+}
+
+.caixa {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+nav li a {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 24px;
+  border: 1px solid #eb339b;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+nav li:nth-child(1) a {
+  color: #eb339b;
+}
+
+nav li:nth-child(1) a:hover {
+  color: #ffffff;
+  background-color: #eb339b;
+  transition: 0.3s;
+}
+
+nav li:nth-child(2) a {
+  color: #ffffff;
+  background-color: #eb339b;
+}
+
+nav li:nth-child(2) a:hover {
+  color: #eb339b;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+nav a {
+  color: rgb(235, 118, 197);
+  border: rgb(235, 118, 197) solid 2px;
+  border-radius: 5%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: pink;
+}
+
+.produtos li {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 10%;
+  vertical-align: top;
+  margin: 1.5% 1.5% 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  transition: 300ms ease;
+}
+
+.footer-icons li {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 3%;
+  vertical-align: top;
+  margin: 1.5% 1.5% 1.5%;
+  padding: 30px 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
