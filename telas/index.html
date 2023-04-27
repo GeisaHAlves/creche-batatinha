@@ -24,13 +24,15 @@
     </header>
 
     <main>
-      <div class="titulo-principal">
-        <h1>Boas-Vindas a Creche Batatinha,</h1>
-        <h2>Seu Miau Feliz</h2>
-      </div>
+      <section class="titulo">
+        <div>
+            <h1 class="titulo-principal">Boas-Vindas a Creche<br>Batatinha,</h1>
+            <h2 class="titulo-principal">Seu Miau Feliz</h2>
+        </div>
+      </section>
 
       <section class="conteudo-principal">
-        <h3>Adote Seu Miau</h3>
+        <h3 class="conteudo-principal-titulo">Adote Seu Miau</h3>
         <div class="conteudo-animais">
           <ul class="animais">
             <li>
@@ -56,49 +58,69 @@
           </ul>
         </div>
       </section>
+
+      <section class="status">
+        <div>
+          <h2 class="miau-status">Miau Status</h2>
+        </div>
+        <div class="miau-status-detalhes">
+          <img
+            class="miau-status-foto1"
+            src="../assets/img/cat.jpg"
+            alt="foto de cato"
+          />
+          <p class="status-detalhes">
+            <ul>
+              <li>Nome:</li>
+              <li>Raça</li>
+              <li>Gênero:</li>
+              <li>idade:</li>
+              <li>Vacinas:</li>
+            </ul>
+          </p>
+        </div>
+      </section>
     </main>
 
     <footer>
-      
-            <ul class="footer-icons">
-              <li>
-                <img src="../assets/img/Instagram.jpg" />
-              </li>
-              <li>
-                <img src="../assets/img/facebook.png" />
-              </li>
-              <li>
-                <img src="../assets/img/twitter.jpg" />
-              </li>
-              <li>
-                <img src="../assets/img/WhatsApp.jpg" />
-              </li>
-              <li>
-            <div>
-              <fieldset>
-                <legend
-                  class="rodapePrincipal-contatoForm-legend"
-                  for="email-contato"
+      <ul class="footer-icons">
+        <li>
+          <img src="../assets/img/Instagram.jpg" />
+        </li>
+        <li>
+          <img src="../assets/img/facebook.png" />
+        </li>
+        <li>
+          <img src="../assets/img/twitter.jpg" />
+        </li>
+        <li>
+          <img src="../assets/img/WhatsApp.jpg" />
+        </li>
+        <li>
+          <div>
+            <fieldset>
+              <legend
+                class="rodapePrincipal-contatoForm-legend"
+                for="email-contato"
+              >
+                Entre em contato conosco
+              </legend>
+              <div class="rodapePrincipal-contatoForm-fieldset">
+                <input
+                  class="rodapePrincipal-contatoForm-emailInput"
+                  type="email"
+                  name="email-contato"
+                  id="email-contato"
+                />
+                <button
+                  class="rodapePrincipal-contatoForm-submit"
+                  type="submit"
                 >
-                  Entre em contato conosco
-                </legend>
-                <div class="rodapePrincipal-contatoForm-fieldset">
-                  <input
-                    class="rodapePrincipal-contatoForm-emailInput"
-                    type="email"
-                    name="email-contato"
-                    id="email-contato"
-                  />
-                  <button
-                    class="rodapePrincipal-contatoForm-submit"
-                    type="submit"
-                  >
-                    Enviar
-                  </button>
-                </div>
-              </fieldset>
-            </div>
-          
+                  Enviar
+                </button>
+              </div>
+            </fieldset>
+          </div>
         </li>
       </ul>
 
