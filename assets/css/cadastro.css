@@ -16,7 +16,8 @@ section {
     flex-direction: column;
     margin: 0 auto;
     margin-top: 64px;
-    width: 760px;
+    max-width: 760px;
+    width: 90%;
     padding: 40px 0;
     align-items: center;
     background-color: #FFFFFF;
@@ -28,6 +29,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
 }
+
 
 .fotomiau {
     position: relative;
@@ -72,26 +74,32 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 672px;
+    width: 90%;
+    align-items: center;
 }
 
 .formulario input {
     border: none;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 56px rgba(51, 51, 51, 0.16);
     border-radius: 4px;
+    box-sizing: border-box;
     padding: 16px;
-    width: 672px;
+    width: 100%;
+    max-width: 672px;
     margin-top: 24px;
     
 }
 
 .botoes {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .botoes input {
-    width: 324px;
-    padding: 10px 0;
+    max-width: 324px;
+    width: 45%;
     margin-top: 24px;
     font-size: 16px;
     font-weight: 400;
@@ -108,4 +116,30 @@ section {
     background-color: #9F9F9F;
     color: #FFFFFF;
     border: none;
+}
+
+@media (max-width: 1024px){
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes input {
+        margin-bottom: .1rem;
+        width: 100%;
+    }
 }

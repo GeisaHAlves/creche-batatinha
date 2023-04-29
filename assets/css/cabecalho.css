@@ -1,23 +1,28 @@
 
 header {
     background: white;
+    width: 100%;
 }
 
 .caixa {
-    width: 940px;
+    max-width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .nav_cabecalho ul {
     list-style-type: none; 
     padding: 0;
     display: flex;
+    width: 100%;
     width: 350px;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .nav_cabecalho li a {
@@ -28,7 +33,7 @@ header {
     border: 1px solid #EB339B;
     border-radius: 4px;
     padding: 10px 20px;
-    display: inline-block;
+    display: flex;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -54,9 +59,31 @@ header {
 }
 
 @media (max-width: 1024px){
+    header {
+        width: 100%;
+    }
+
     .caixa {
-        width: 769px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 769px;
         padding: 20px;
+    }
+
+    #cabecalho__logo {
+        margin-bottom: 1rem;
+    }
+
+    .nav_cabecalho ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_cabecalho ul a {
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 }
 

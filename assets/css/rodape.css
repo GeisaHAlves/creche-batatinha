@@ -2,7 +2,8 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: pink;
-    padding-top: 20px;
+    padding-top: 30px;
+    align-items: center;
 }
 
 .rodape {
@@ -10,6 +11,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     border-bottom: #FFFFFF;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .rodape__redes {
@@ -19,8 +22,8 @@ footer {
 
 .rodape__social {
     margin: 0 10px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     fill: #FFFFFF;
 }
 
@@ -32,9 +35,9 @@ footer {
 
 .rodape__navegacao {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    line-height: 3;
+    line-height: 2;
     justify-content: space-around;
 }
 
@@ -47,8 +50,36 @@ footer {
 
 #copyright {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
-    padding: 20px 0;
+    padding-bottom: 20px;
     color: white;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #FFFFFF;
+        align-items: center;
+    }
+
+    #rodape__logo {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #FFFFFF;
+        align-items: center;
+    }
+
+    #rodape__logo {
+        width: 50%;
+        margin-bottom: 1.5rem;
+    }
 }
