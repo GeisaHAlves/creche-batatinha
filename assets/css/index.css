@@ -1,23 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&family=Rokkitt&display=swap");
 
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 64px;
+  max-width: 760px;
+  width: 90%;
+  padding: 40px 0;
+  background-color: #ffffff;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
 .titulo-principal {
-
-display: flex;
-justify-content: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 78px;
-
-
-color: #111111;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 24px;
+  color: #111111;
 }
 
 .titulo-secundario {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -60,11 +74,6 @@ color: #111111;
   border: #111111 solid 2px;
   border-radius: 10px;
   transition: 300ms ease;
-}
-
-.status {
-  background: #cccccc;
-  padding: 10px;
 }
 
 .miau-status {
