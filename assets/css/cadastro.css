@@ -23,51 +23,51 @@ section {
     background-color: #FFFFFF;
     justify-content: space-between;
     border-radius: 8px;
-}
+
 
 .principal h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
 }
 
 
 .fotomiau {
-    position: relative;
-    text-align: center;
-    width: 135px; /*tamanho da div definido*/
-    height: 145px;
-    margin-top: 32px; /*distancia h1*/
+  position: relative;
+  text-align: center;
+  width: 135px; /*tamanho da div definido*/
+  height: 145px;
+  margin-top: 32px; /*distancia h1*/
 }
 
 .fotomiau img {
-    margin: 0;
-    position: absolute; /*Posicionado em relação com elemento pai - fotomiau*/
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); /*centraliza imagem*/
+  margin: 0;
+  position: absolute; /*Posicionado em relação com elemento pai - fotomiau*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza imagem*/
 }
 
 .fotomiau .enviofotogato {
-    position: absolute; /*repete pra div da tag p*/
-    width: 100%; /*cobre o tamanho da div pai, ocupando 100% do espaço*/
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /*centraliza div que tem a tag p - texto*/
+  position: absolute; /*repete pra div da tag p*/
+  width: 100%; /*cobre o tamanho da div pai, ocupando 100% do espaço*/
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza div que tem a tag p - texto*/
 }
 
 .fotomiau .enviofotogato p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /*centraliza texto*/
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 16px;
-    width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza texto*/
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  width: 80%;
 }
 
 .formulario {
@@ -110,12 +110,12 @@ section {
     padding: 10px 0;
     font-family: 'Roboto', sans-serif;
     color:#EB339B;
-}
+
 
 #salvardados {
-    background-color: #9F9F9F;
-    color: #FFFFFF;
-    border: none;
+  background-color: #9f9f9f;
+  color: #ffffff;
+  border: none;
 }
 
 @media (max-width: 1024px){
