@@ -1,0 +1,113 @@
+
+.foto-miau{
+    margin: auto;
+    width: 672px;
+    height: 88px;
+    padding-right: 20px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 16px 0px #33333314;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.dados-miau{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.caixaNotas{
+    margin: auto;
+    width: 672px;
+    height: 88px;
+    padding-right: 20px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 16px 0px #33333314;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#titulo__cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.botaovoltar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    background-color: #FFF;
+    color: #EB339B;
+    
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes input {
+    max-width: 324px;
+    width: 45%;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 24px;
+    border: 2px solid #EB339B;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color:#EB339B;
+
+
+}#salvardados {
+  background-color: #9f9f9f;
+  color: #ffffff;
+  border: none;
+}
+
+@media (max-width: 1024px){
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes input {
+        margin-bottom: .1rem;
+        width: 100%;
+    }
+}
