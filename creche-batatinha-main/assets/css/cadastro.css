@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2
+}
+
+section {
+    height: 100vh; /* Define a altura da seção como 100% da altura da janela de visualização */
+     /* flex-grow: 1;Faz com que a seção ocupe o espaço restante disponível */
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 64px;
+    max-width: 760px;
+    width: 90%;
+    padding: 40px 0;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.principal h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+}
+
+
+.fotomiau {
+  position: relative;
+  text-align: center;
+  width: 135px; /*tamanho da div definido*/
+  height: 145px;
+  margin-top: 32px; /*distancia h1*/
+}
+
+.fotomiau img {
+  margin: 0;
+  position: absolute; /*Posicionado em relação com elemento pai - fotomiau*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza imagem*/
+}
+
+.fotomiau .enviofotogato {
+  position: absolute; /*repete pra div da tag p*/
+  width: 100%; /*cobre o tamanho da div pai, ocupando 100% do espaço*/
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza div que tem a tag p - texto*/
+}
+
+.fotomiau .enviofotogato p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*centraliza texto*/
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  width: 80%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 672px;
+    width: 90%;
+    align-items: center;
+}
+
+.formulario input {
+    border: none;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 56px rgba(51, 51, 51, 0.16);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    max-width: 672px;
+    margin-top: 24px;
+    
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes input {
+    max-width: 324px;
+    width: 45%;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 24px;
+    border: 2px solid #EB339B;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color:#EB339B;
+}
+
+#salvardados {
+  background-color: #9f9f9f;
+  color: #ffffff;
+  border: none;
+}
+
+@media (max-width: 1024px){
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    #titulo__cadastro {
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes input {
+        margin-bottom: .1rem;
+        width: 100%;
+    }
+}
