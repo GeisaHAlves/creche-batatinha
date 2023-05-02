@@ -67,11 +67,18 @@ body {
   font-weight: 400;
   font-size: 16px;
   border: 2px solid #eb339b;
+  border-radius: 4px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding: 8px, 16px, 8px, 16px;
   background-color: #fff;
   color: #eb339b;
+}
+
+.botao-notas:hover {
+  color: #FFFFFF;
+  background-color: #EB339B;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
