@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&family=Rokkitt&display=swap");
+
+.caixa {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/*   -----    Listagem de Miaus    -----    */
+
+.lista-miaus {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 752px;
+  height: 578px;
+  padding: 10px 20px;
+  margin: 32px auto 10px;
+}
+
+.paragrafo-miau {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  line-height: 39.01px;
+}
+
+.adiciona-miau {
+  margin: auto;
+  width: 672px;
+  height: 88px;
+  padding-right: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 16px 0px #33333314;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.dados-miau {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.botao-notas {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 2px solid #eb339b;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: #fff;
+  color: #eb339b;
+}
+
+@media screen and (max-width: 1024px) {
+  .caixa {
+    width: auto;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .caixa {
+    width: 146vh;
+  }
+}
