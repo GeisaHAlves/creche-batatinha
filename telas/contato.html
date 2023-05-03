@@ -9,15 +9,14 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap"
             rel="stylesheet">
-            <link rel="stylesheet" href="../assets/css/cadastro.css">
-            <link rel="stylesheet" href="../assets/css/cabecalho.css">
             <link rel="stylesheet" href="../assets/css/reset.css">
+            <link rel="stylesheet" href="../assets/css/contato.css">
+            <link rel="stylesheet" href="../assets/css/cabecalho.css">
             <link rel="stylesheet" href="../assets/css/rodape.css">
         <title>Creche batatinha</title>
     </head>
     <body>
         <header>
-
             <div class="caixa">
                 <a href="index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
                 <nav class="nav_cabecalho">
@@ -29,29 +28,40 @@
             </div>
           </header>
 
-        <section>
-            <div class="principal">
-                <h1 id="titulo__cadastro">Cadastro de um novo Miau</h1>
-                <div class="fotomiau">
-                    <img src="../assets/img/cat.png" id="fotogatinho">
-                    <div class="enviofotogato">
-                        <p>+ Clique para adicionar foto</p>
-                    </div>
+        <main>
+            <h1 id="titulo__contato">Fale conosco</h1>
+            <form class="principal">
+                <div>
+                    <input type="text" placeholder="Nome" class="input-padrao" required>
                 </div>
-                
-                <form class="formulario">
-                    <input type="text" id="nomemiau" class="input-padrao" required placeholder="Nome do(a) Miau">
-                
-                    <input type="text" id="pessoadona" class="input-padrao" required placeholder="Nome da pessoa dona">
-                    
-                    <div class = "botoes">
-                        <input type="submit" value="Cancelar cadastro">
-                        <input type="submit" value="Salvar dados" id = "salvardados">
-                    </div>
-                    
-                </form>
-            </div>
-        </section>
+                <div>
+                    <input type="tel" placeholder="(xx) xxxx xxxx" class="input-padrao" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="E-mail" class="input-padrao" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="xxxxx-xxx" class="input-padrao" required>
+                </div>
+
+                <fieldset class="selecao__formulario">
+					<legend id="label__formulario">De quantos Miaus você cuida?</legend>
+					<select class="select__formulario">
+						<option>1</option>
+						<option>2</option>
+						<option>3 ou mais</option>
+					</select>
+				</fieldset>
+
+                <div>
+                    <label></label>
+				<textarea rows="10" class="texto__formulario" placeholder=" Escreva sua mensagem" required></textarea>
+                </div>
+                <div class="div__botao__formulario">
+                    <button class="botao__formulario">Cadastrar</a>
+                </div>
+            </form>
+        </main>
 
         <footer>
             <div class="rodape">
@@ -65,9 +75,9 @@
             </div>
             <nav class="rodape__nav">
                 <ul class="rodape__navegacao">
-                    <li class="rodape__link"><a href="#">Sobre nós</a></li>
-                    <li class="rodape__link"><a href="#">Equipe</a></li>
-                    <li class="rodape__link"><a href="#">Fale conosco</a></li>
+                    <li class="rodape__link"><a href="sobre.html">Sobre nós</a></li>
+                    <li class="rodape__link"><a href="equipe.html">Equipe</a></li>
+                    <li class="rodape__link"><a href="contato.html">Fale conosco</a></li>
                 </ul>
             </nav>
             <P id="copyright">© Todos os direitos reservados - Creche Batatinha 2023</P>

@@ -23,7 +23,7 @@ section {
     background-color: #FFFFFF;
     justify-content: space-between;
     border-radius: 8px;
-
+}
 
 .principal h1 {
   font-family: "Montserrat", sans-serif;
@@ -110,7 +110,7 @@ section {
     padding: 10px 0;
     font-family: 'Roboto', sans-serif;
     color:#EB339B;
-
+}
 
 #salvardados {
   background-color: #9f9f9f;
