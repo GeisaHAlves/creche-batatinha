@@ -5,60 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creche Batatinha</title>
-    <link rel="stylesheet" href="../assets/css/reset.css" />
-    <link rel="stylesheet" href="../assets/css/cadastro.css" />
     <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/rodape.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   </head>
-
   <body>
+  
     <header>
-      <div class="cabecalho">
-        <a href="index.html"><img src="../assets/img/Logo.svg" /></a>
-        <nav>
-          <ul>
-            <li><a href="listagem.html">Ver lista de Miaus</a></li>
-            <li><a href="cadastro.html">Cadastrar Miau</a></li>
-          </ul>
+    <div class="caixa">
+        <a href="index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
+        <nav class="nav_cabecalho">
+            <ul>
+                <li><a href="listagem.html">Ver lista de Miaus</a></li>
+                <li><a href="cadastro.html">Cadastrar Miau</a></li>
+            </ul>
         </nav>
+    </div>
+  </header>
+
+  
+      <div class="principal">
+        <h1 class="titulo-principal">Boas-Vindas a Creche Batatinha,</h1>
+        <h2 class="titulo-secundario">Seu Miau Feliz!</h2>
       </div>
-    </header>
-
-    <main>
-      <section class="titulo">
-        <div>
-            <h1 class="titulo-principal">Boas-Vindas a Creche<br>Batatinha,</h1>
-            <h2 class="titulo-principal">Seu Miau Feliz</h2>
+    
+      <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                 <img src="../assets/img/gato3.jpg" alt="Foto 03" class="carroussel">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="../assets/img/gato2.jpg" alt="Foto 02" class="carroussel">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="../assets/img/gato1.jpg" alt="Foto 01" class="carroussel">
+                </div>
+              </div>
+            </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
-
-      <section class="conteudo-principal">
-        <h3 class="conteudo-principal-titulo">Adote Seu Miau</h3>
-        <div class="conteudo-animais">
-          <ul class="animais">
-            <li>
-              <img src="../assets/img/ava (1).png" />
-              <p class="descricao">Raça - ()</p>
-              <p class="contato">Contato</p>
-            </li>
-            <li>
-              <img src="../assets/img/ava (2).png" />
-              <p class="descricao">Raça - ()</p>
-              <p class="contato">Contato</p>
-            </li>
-            <li>
-              <img src="../assets/img/ava (3).png" />
-              <p class="descricao">Raça - ()</p>
-              <p class="contato">Contato</p>
-            </li>
-            <li>
-              <img src="../assets/img/ava (4).png" />
-              <p class="descricao">Raça - ()</p>
-              <p class="contato">Contato</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
+      </main>
+       
       <section class="status">
         <div>
           <h2 class="miau-status">Miau Status</h2>
@@ -67,12 +65,11 @@
           <img
             class="miau-status-foto1"
             src="../assets/img/cat.jpg"
-            alt="foto de cato"
-          />
+            alt="foto de cato"/>
           <p class="status-detalhes">
             <ul>
               <li>Nome:</li>
-              <li>Raça</li>
+              <li>Raça:</li>
               <li>Gênero:</li>
               <li>idade:</li>
               <li>Vacinas:</li>
@@ -80,51 +77,28 @@
           </p>
         </div>
       </section>
-    </main>
+    
+  <footer>
+      <div class="rodape">
+          <img id="rodape__logo" src="../assets/img/Logo.svg"/>
+          <ul class="rodape__redes">
+              <li><img src="../assets/img/logo - facebook.png" class="rodape__social"></li>
+              <li><img src="../assets/img/logo - instagram.png" class="rodape__social"></li>
+              <li><img src="../assets/img/logo - twitter.png" class="rodape__social"></li>
+              <li><img src="../assets/img/logo - whatsapp.png" class="rodape__social"></li>
+          </ul>
+      </div>
+      <nav class="rodape__nav">
+          <ul class="rodape__navegacao">
+              <li class="rodape__link"><a href="sobre.html">Sobre nós</a></li>
+              <li class="rodape__link"><a href="equipe.html">Equipe</a></li>
+              <li class="rodape__link"><a href="contato.html">Fale conosco</a></li>
+          </ul>
+      </nav>
+      <P id="copyright">© Todos os direitos reservados - Creche Batatinha 2023</P>
+  </footer>
 
-    <footer>
-      <ul class="footer-icons">
-        <li>
-          <img src="../assets/img/Instagram.jpg" />
-        </li>
-        <li>
-          <img src="../assets/img/facebook.png" />
-        </li>
-        <li>
-          <img src="../assets/img/twitter.jpg" />
-        </li>
-        <li>
-          <img src="../assets/img/WhatsApp.jpg" />
-        </li>
-        <li>
-          <div>
-            <fieldset>
-              <legend
-                class="rodapePrincipal-contatoForm-legend"
-                for="email-contato"
-              >
-                Entre em contato conosco
-              </legend>
-              <div class="rodapePrincipal-contatoForm-fieldset">
-                <input
-                  class="rodapePrincipal-contatoForm-emailInput"
-                  type="email"
-                  name="email-contato"
-                  id="email-contato"
-                />
-                <button
-                  class="rodapePrincipal-contatoForm-submit"
-                  type="submit"
-                >
-                  Enviar
-                </button>
-              </div>
-            </fieldset>
-          </div>
-        </li>
-      </ul>
-
-      <p class="copyright">&copy; Creche Batatinha - 2023</p>
-    </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="../service/carousel.js"></script>
   </body>
 </html>
