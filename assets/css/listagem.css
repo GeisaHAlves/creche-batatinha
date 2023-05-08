@@ -72,11 +72,13 @@ body {
   padding: 8px, 16px, 8px, 16px;
   background-color: #fff;
   color: #eb339b;
+
  
 }
 .textoBotao{
   text-decoration: none;
   color: #eb339b;
+
 }
 
 @media screen and (max-width: 1024px) {
