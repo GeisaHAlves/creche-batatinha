@@ -1,90 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Creche Batatinha</title>
-    <link rel="stylesheet" href="../assets/css/reset.css" />
-    <link rel="stylesheet" href="../assets/css/cabecalho.css" />
-    <link rel="stylesheet" href="../assets/css/rodape.css" />
-    <link rel="stylesheet" href="../assets/css/listagem.css" />
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creche Batatinha</title>
+  <link rel="stylesheet" href="../assets/css/reset.css" />
+  <link rel="stylesheet" href="../assets/css/cabecalho.css" />
+  <link rel="stylesheet" href="../assets/css/rodape.css" />
+  <link rel="stylesheet" href="../assets/css/listagem.css" />
 
-  <body>
-    <header>
+</head>
 
-      <div class="caixa">
-          <a href="index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
-          <nav class="nav_cabecalho">
-              <ul>
-                  <li><a href="listagem.html">Ver lista de Miaus</a></li>
-                  <li><a href="cadastro.html">Cadastrar Miau</a></li>
-              </ul>
-          </nav>
-      </div>
-    </header>
+<body>
+  <header>
 
-    <main>
-      <section class="lista-miaus">
-        <h1 class="paragrafo-miau">Lista de Miaus</h1>
+    <div class="caixa">
+      <a href="index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
+      <nav class="nav_cabecalho">
+        <ul>
+          <li><a href="listagem.html">Ver lista de Miaus</a></li>
+          <li><a href="cadastro.html">Cadastrar Miau</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <div class="adiciona-miau">
-          <div class="dados-miau">
-            <img src="../assets/img/ava (1).png" alt="">
-            <p>Nome do Miau</p>
-          </div>
-          <button class="botao-notas">
-            <a href="../telas/notas.html" class="textoBotao">Lançar notas</button></a>
-        </div>
+  <main>
+    <section class="lista-miaus">
+      <h1 class="paragrafo-miau">Lista de Miaus</h1>
 
-        <div class="adiciona-miau">
-          <div class="dados-miau">
-            <img src="../assets/img/ava (2).png" alt="">
-            <p>Nome do Miau</p>
-          </div>
-          <button class="botao-notas"> <a href="../telas/notas.html" class="textoBotao">Lançar notas</a></button>
-        </div>
+      <div  id="data-listagem">
         
-        <div class="adiciona-miau">
-          <div class="dados-miau">
-            <img src="../assets/img/ava (3).png" alt="">
-            <p>Nome do Miau</p>
-          </div>
-          <button class="botao-notas"><a href="../telas/notas.html" class="textoBotao">Lançar notas</a></button>
-        </div>
+      </div>
 
-        <div class="adiciona-miau">
-          <div class="dados-miau">
-            <img src="../assets/img/ava (4).png" alt="">
-            <p>Nome do Miau</p>
-          </div>
-          <button class="botao-notas"><a href="../telas/notas.html" class="textoBotao">Lançar notas</a></button>
-        </div>
+      <div  data-listagem></div>
 
-      </section>
+      
+
+    </section>
   </main>
 
   <footer>
     <div class="rodape">
-        <img id="rodape__logo" src="../assets/img/Logo.svg"/>
-        <ul class="rodape__redes">
-            <li><img src="../assets/img/logo - facebook.png" class="rodape__social"></li>
-            <li><img src="../assets/img/logo - instagram.png" class="rodape__social"></li>
-            <li><img src="../assets/img/logo - twitter.png" class="rodape__social"></li>
-            <li><img src="../assets/img/logo - whatsapp.png" class="rodape__social"></li>
-        </ul>
+      <img id="rodape__logo" src="../assets/img/Logo.svg" />
+      <ul class="rodape__redes">
+        <li><img src="../assets/img/logo - facebook.png" class="rodape__social"></li>
+        <li><img src="../assets/img/logo - instagram.png" class="rodape__social"></li>
+        <li><img src="../assets/img/logo - twitter.png" class="rodape__social"></li>
+        <li><img src="../assets/img/logo - whatsapp.png" class="rodape__social"></li>
+      </ul>
     </div>
     <nav class="rodape__nav">
-        <ul class="rodape__navegacao">
-          <li class="rodape__link"><a href="sobre.html">Sobre nós</a></li>
-          <li class="rodape__link"><a href="equipe.html">Equipe</a></li>
-          <li class="rodape__link"><a href="contato.html">Fale conosco</a></li>
-        </ul>
+      <ul class="rodape__navegacao">
+        <li class="rodape__link"><a href="sobre.html">Sobre nós</a></li>
+        <li class="rodape__link"><a href="equipe.html">Equipe</a></li>
+        <li class="rodape__link"><a href="contato.html">Fale conosco</a></li>
+      </ul>
     </nav>
     <P id="copyright">© Todos os direitos reservados - Creche Batatinha 2023</P>
-</footer>
+  </footer>
 
-    </body>
-    
+</body>
+<script type="module" src="../controller/listagem-gatos-service.js"></script>
+</html>
+
