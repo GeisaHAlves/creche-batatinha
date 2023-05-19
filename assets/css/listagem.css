@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&family=Rokkitt&display=swap");
 
-.caixa {
-  width: 1040px;
-  margin: 0 auto;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 body {
   margin: 0;
@@ -22,7 +15,8 @@ body {
 .lista-miaus {
   background-color: #ffffff;
   box-sizing: border-box;
-  width: 752px;
+  max-width: 752px;
+  width: 95%;
   height: 578px;
   padding: 10px 20px;
   margin: 32px auto 10px;
@@ -40,7 +34,8 @@ body {
 
 .adiciona-miau {
   margin: auto;
-  width: 672px;
+  max-width: 672px;
+  width: 95%;
   height: 88px;
   padding-right: 20px;
   border: 1px solid #fff;
@@ -52,15 +47,20 @@ body {
   margin-bottom: 24px;
 }
 
+
 .dados-miau {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 20px;
+  padding-right: 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 16px;
 }
+
+
 
 .botao-notas {
   font-family: "Roboto", sans-serif;
@@ -89,7 +89,5 @@ body {
 }
 
 @media screen and (max-width: 426px) {
-  .caixa {
-    width: 146vh;
-  }
+  
 }
