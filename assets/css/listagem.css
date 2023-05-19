@@ -32,6 +32,14 @@ body {
   line-height: 39.01px;
 }
 
+.linhaGato {
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px;
+}
+
 .adiciona-miau {
   margin: auto;
   max-width: 672px;

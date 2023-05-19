@@ -1,15 +1,16 @@
-import { gatosService } from "../service/listagem-service.js";
+import { listagemService } from "../service/listagem-service.js";
 
+const formulario = document.querySelector('[data-form]')
 
-const form = document.querySelector('form');
+formulario.addEventListener('submit', (evento)=> {
+    evento.preventDefault()
+    const nome = evento.target.querySelector('#nomemiau').value
+    const nomeDono = evento.target.querySelector('#pessoadona').value
+    
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const nome = e.target.querySelector('#nomemiau').value;
-    const dono = e.target.querySelector('#pessoadona').value
-
-    gatosService.criaCliente(nome, dono)
-    .then(() => {
-        window.location.href = '../telas/listagem.html'
+    listagemService.criaMiau(nome, nomeDono)
+    .then(()=>{
+        return(
+        alert('Seu Miau foi cadastrado com SUCESSO <3'))
     })
 })
