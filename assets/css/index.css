@@ -128,12 +128,7 @@ section {
   font-size: 16px;
 }
 
-/* .produto-preco {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0 0;
-  margin-top: 10px;
-} */
+
 /* ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ */
 .miau-status {
   text-align: center;
@@ -197,4 +192,16 @@ section {
     .swiper {
       height: 230px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+   .cards {
+     width: auto;
+     }
+ 
+}
+
+@media screen and (max-width: 426px) {
+ 
+
 }
