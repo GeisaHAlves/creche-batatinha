@@ -6,6 +6,7 @@ function aplicarNota(id, nota){
         imagem.src = "../assets/img/patinha.jpg";
     }
 
+
     /**Aplicando as notas de acordo com atributo nota */   
     for (let index = 1; index <= nota; index++) {
         const imagem = document.getElementById(`${id}-pata-${index}`);        
