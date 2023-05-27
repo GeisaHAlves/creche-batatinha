@@ -22,7 +22,7 @@
     <header>
 
       <div class="caixa">
-          <a href="../index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
+          <a href="index.html"><img src="../assets/img/Logo.svg" id="cabecalho__logo"></a>
           <nav class="nav_cabecalho">
               <ul>
                   <li><a href="listagem.html">Ver lista de Miaus</a></li>
@@ -33,7 +33,7 @@
     </header>
 
 <main>
-  <div class="principal">
+  <div class="principal" id="conteudo">
     <div class="caixaNotas"> <a href="../telas/listagem.html">
       <img src="../assets/img/Botão voltar.png" alt="botaovoltar" class="botaovoltar"> 
     </a>
@@ -44,7 +44,7 @@
           <img src="../assets/img/ava (1).png" alt="">
           <p>Nome Miau Teimoso</p>
         </div>
-      <h5>Abril/2023</h5>
+      <h5>Maio/2023</h5>
       
           </div>
         </div>
@@ -139,7 +139,6 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Fotos<p>Deixa as titias tirarem foto?</p>
               </li></div>
-
               
               <div class="col">
                 <img src="../assets/img/patinha.jpg" class="pata-cinza rosa" id="fotos-pata-1" onclick="aplicarNota('fotos', 1)" alt="patacinza"> 
@@ -157,7 +156,7 @@
 <!-- Botões -->
            
         <div class = "botoes">
-          <input type="submit" value="Imprimir Boletim">
+          <input type="submit" value="Imprimir Boletim" id="imprimir-pdf">
           <input type="submit" value="Salvar Notas" id = "salvardados">
       </div>
       
@@ -185,6 +184,6 @@
       <P id="copyright">© Todos os direitos reservados - Creche Batatinha 2023</P>
   </footer>
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <script src="../service/notas-service.js"></script>
     </body>

@@ -14,3 +14,22 @@ function aplicarNota(id, nota){
     }   
     
 }
+//*****  Imprimir boletim */
+
+const botaoImprimir = document.querySelector("#imprimir-pdf");
+
+botaoImprimir.addEventListener("click", ()=>{
+
+   const conteudo = document.querySelector("#conteudo") 
+
+//conf do arquivo final PDF - biblioteca html2pdf.js
+const configuracao = {
+
+    filename: "notas.pdf",
+    html2canvas: {scale:2},
+    jsPDF: {unit: "in", format: "a4", orientation: "portrait"}
+}
+
+//Gerar e baixar PDF
+html2pdf().set(configuracao).from(conteudo).save();
+});
