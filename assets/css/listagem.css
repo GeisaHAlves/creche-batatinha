@@ -17,9 +17,10 @@ body {
   box-sizing: border-box;
   max-width: 752px;
   width: 95%;
-  height: 578px;
+  min-height: 340px;
+  height: auto;
   padding: 10px 20px;
-  margin: 32px auto 10px;
+  margin: 32px auto 32px;
 }
 
 .paragrafo-miau {
@@ -51,8 +52,8 @@ body {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
+  align-items: start;
+  padding-top: 5%;
 }
 
 
@@ -70,7 +71,7 @@ body {
 
 
 
-.botao-notas {
+.botao-notas, .botao-excluir {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -86,7 +87,11 @@ body {
 .textoBotao{
   text-decoration: none;
   color: #eb339b;
+}
 
+.div-gato{
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
