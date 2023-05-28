@@ -26,10 +26,18 @@ const criaMiau = (nome,nomeDono,id) => {
     })
 }
 
+// 6° Deletar Miau
+const deletaMiau = (id) => {
+    return fetch(`http://localhost:3000/gato/${id}`, {
+        method: "DELETE"
+    })
+}
+
 
 export const listagemService = {
     listaGatos,
-    criaMiau
+    criaMiau,
+    deletaMiau
 }
 
 
