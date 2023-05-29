@@ -8,14 +8,16 @@ const criaNovaLinha = (nome, nomeDono,id) => {
    <div class="dados-miau">
     <img src="../assets/img/ava (1).png" alt="">
     <td>Nome:</th>
-    <td data-td class="linhaGato">${nome}</td>
+    <td data-td class="linhaGato" >${nome}</td>
     </br>
     <td>Dono: </th>
-    <td class="linhaGato">${nomeDono}</td>
+    <td class="linhaGato" >${nomeDono}</td>
   </div>
   <div>
   <button class="botao-notas">
   <a href="../telas/notas.html" class="textoBotao">Lançar notas</button></a>
+  <button class="botao-notas">
+  <a href="../telas/edicao.html?id=${id}" class="textoBotao">Editar</button></a>
   <button class="botao-excluir"> Excluir </button>
   </div>
   </div>

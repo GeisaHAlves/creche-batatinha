@@ -7,7 +7,7 @@ export const listaGatos = () => {
     })
 }
 
-//------ 5° Enviar dados ao formulario cadastrar cliente (FUNÇÃO POST)
+//c
 
 const criaMiau = (nome,nomeDono,id) => {
     return fetch(`http://localhost:3000/gato`,{
@@ -26,10 +26,37 @@ const criaMiau = (nome,nomeDono,id) => {
     })
 }
 
-// 6° Deletar Miau
+//------ 5° Apagar dados do formulario cadastrar cliente (FUNÇÃO DELETE)
 const deletaMiau = (id) => {
     return fetch(`http://localhost:3000/gato/${id}`, {
         method: "DELETE"
+    })
+}
+
+// 7° Arquivo de edição. Essa constante será utilizada no arquivo atualizaCLiente-controller
+
+const detalhaCliente = (id) => {
+    return fetch(`http://localhost:3000/gato/${id}`)
+    .then(resposta => {
+        return resposta.json()
+    })
+}
+
+//------ 8° Editar dados ao formulário cadastrar cliente (FUNÇÃO PUT)
+const atualizaCliente = (id, nome, nomeDono) => {
+    return fetch(`http://localhost:3000/gato/${id}`, {
+        method: 'PUT',
+        headers: {
+            'Content-type' : 'application/json'
+        },
+        body: JSON.stringify({
+            nome: nome,
+            nomeDono: nomeDono,
+    
+        })
+    })
+    .then(resposta => {
+        return resposta.json()
     })
 }
 
@@ -37,7 +64,9 @@ const deletaMiau = (id) => {
 export const listagemService = {
     listaGatos,
     criaMiau,
-    deletaMiau
+    deletaMiau,
+    detalhaCliente,
+    atualizaCliente
 }
 
 
