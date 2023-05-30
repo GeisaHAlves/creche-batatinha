@@ -1,8 +1,8 @@
 //------ 1° Criar estrutura html que sera alimentada pela API --------------------------------------
 import { listagemService } from "../service/listagem-service.js";
-const criaNovaLinha = (nome, nomeDono,id) => {
-    const linhaNovoGato = document.createElement('div')
-    const conteudo =`
+const criaNovaLinha = (nome, nomeDono, id) => {
+  const linhaNovoGato = document.createElement("div");
+  const conteudo = `
    
    <div class="adiciona-miau">
    <div class="dados-miau">
@@ -22,37 +22,35 @@ const criaNovaLinha = (nome, nomeDono,id) => {
   </div>
   </div>
   
-          `
-   linhaNovoGato.innerHTML = conteudo;
-   linhaNovoGato.dataset.id = id;
-   
-   return linhaNovoGato
-   
-}
+          `;
+  linhaNovoGato.innerHTML = conteudo;
+  linhaNovoGato.dataset.id = id;
+
+  return linhaNovoGato;
+};
 
 //------ 2° Ligar o id da tabela que esta no nosso html com esse que criamos no JS --------------------------------------
-const tabela = document.querySelector('#data-listagem') 
+const tabela = document.querySelector("#data-listagem");
 
 //-------- 3° Deletar cliente
 
-tabela.addEventListener('click', (evento) => {
- let ehBotaoDeletar = evento.target.className == 'botao-excluir'
+tabela.addEventListener("click", (evento) => {
+  let ehBotaoDeletar = evento.target.className == "botao-excluir";
 
- if(ehBotaoDeletar){
-   const linhaGato = evento.target.closest('[data-id');
-   let id = linhaGato.dataset.id
-   listagemService.deletaMiau(id)
-   .then(() => {
-    linhaGato.remove()
-   })
- }
-})
+  if (ehBotaoDeletar) {
+    const linhaGato = evento.target.closest("[data-id");
+    let id = linhaGato.dataset.id;
+    listagemService.deletaMiau(id).then(() => {
+      linhaGato.remove();
+    });
+  }
+});
 
 //-------- 4° Pegar os DADOS e EXIBIR NA TELA
-listagemService.listaGatos()
-.then(dados => {
-   dados.forEach(elemento => {
-   tabela.appendChild(criaNovaLinha(elemento.nome, elemento.nomeDono, elemento.id)) 
-   })
-
-})
+listagemService.listaGatos().then((dados) => {
+  dados.forEach((elemento) => {
+    tabela.appendChild(
+      criaNovaLinha(elemento.nome, elemento.nomeDono, elemento.id)
+    );
+  });
+});
