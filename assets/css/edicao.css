@@ -30,3 +30,29 @@ background-color: #ffffff;
     margin-top: 24px;
     
 }
+.input-padrao{
+  border: none;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 10px rgba(51, 51, 51, 0.16);
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 100%;
+  max-width: 672px;
+  margin-top: 24px;
+}
+
+.salvar-dados{
+  max-width: 324px;
+  width: 100%;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 24px;
+  border: 2px solid #EB339B;
+  border-radius: 4px;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  color:#EB339B;
+  align-items: center;
+}
