@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f2f2;
+  }
+
+.lista-edicao{
+background-color: #ffffff;
+  box-sizing: border-box;
+  max-width: 752px;
+  width: 95%;
+  height: 340px;
+  padding: 10px 20px;
+  margin: 32px auto 32px;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  
+}
+
+.paragrafo-edicao{
+    margin: 0px auto 0px;
+}
+
+.formulario-edicao{
+    display: flex;
+    flex-direction: column;
+    max-width: 248px;
+    margin-top: 24px;
+    
+}
