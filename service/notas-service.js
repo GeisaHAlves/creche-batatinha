@@ -1,3 +1,20 @@
+/*import { listagemService } from "../service/listagem-service";
+
+const pegaURL = new URL(window.location);
+
+console.log(pegaURL)
+
+const id = pegaURL.searchParams.get('id');
+
+const resp = document.querySelector('#idNomeMiau')
+
+listagemService.detalhaCliente(id)
+.then(dados => {
+    resp.innerText = dados.nome;
+    console.log(dados)
+})*/
+
+
 function aplicarNota(id, nota){
 
     /**Removendo todas as notas */   
@@ -20,14 +37,14 @@ const botaoImprimir = document.querySelector("#imprimir-pdf");
 
 botaoImprimir.addEventListener("click", ()=>{
 
-   const conteudo = document.querySelector("#conteudo") 
+   const conteudo = document.querySelector('body') 
 
 //conf do arquivo final PDF - biblioteca html2pdf.js
 const configuracao = {
-
+    
     filename: "notas.pdf",
-    html2canvas: {scale:2},
-    jsPDF: {unit: "in", format: "a4", orientation: "portrait"}
+    html2canvas: {scale:3},
+    jsPDF: {unit: "mm", format: "a4", orientation: "portrait"}
 }
 
 //Gerar e baixar PDF
