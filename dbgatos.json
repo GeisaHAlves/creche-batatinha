@@ -1,19 +1,9 @@
 {
   "gato": [
     {
-      "nome": "Xano1",
-      "nomeDono": "Zeca12",
+      "nome": "Gatinho",
+      "nomeDono": "Dono",
       "id": 1
-    },
-    {
-      "nome": "Xano",
-      "nomeDono": "adas",
-      "id": 2
-    },
-    {
-      "nome": "gata",
-      "nomeDono": "dono",
-      "id": 3
     }
   ]
 }

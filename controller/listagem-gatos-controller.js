@@ -15,7 +15,7 @@ const criaNovaLinha = (nome, nomeDono,id) => {
   </div>
   <div>
   <button class="botao-notas">
-  <a href="../telas/notas.html" class="textoBotao">Lançar notas</button></a>
+  <a href="../telas/notas.html?id=${id}" class="textoBotao">Lançar notas</button></a>
   <button class="botao-notas">
   <a href="../telas/edicao.html?id=${id}" class="textoBotao">Editar</button></a>
   <button class="botao-excluir"> Excluir </button>
@@ -56,3 +56,6 @@ listagemService.listaGatos()
    })
 
 })
+
+
+

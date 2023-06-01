@@ -1,7 +1,13 @@
+#conteudo{
+    margin-top: 0px;
+    
+}
+
 
 .foto-miau{
     margin: auto;
-    width: 672px;
+    max-width: 672px;
+    width: 100%;
     height: 88px;
     padding-right: 20px;
     border: 1px solid #FFF;
@@ -24,7 +30,8 @@
 }
 .caixaNotas{
     margin: auto;
-    width: 672px;
+    max-width: 672px;
+    width: 100%;
     height: 88px;
     padding-right: 20px;
     border: 1px solid #FFF;

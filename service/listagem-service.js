@@ -26,7 +26,7 @@ const criaMiau = (nome,nomeDono,id) => {
     })
 }
 
-//------ 5° Apagar dados do formulario cadastrar cliente (FUNÇÃO DELETE)
+//------ 5° Apagar dados do formulario (FUNÇÃO DELETE)
 const deletaMiau = (id) => {
     return fetch(`http://localhost:3000/gato/${id}`, {
         method: "DELETE"
