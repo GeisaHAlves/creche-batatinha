@@ -1,7 +1,6 @@
 {
   "gato": [
     {
-
       "nome": "Brigadeiro",
       "nomeDono": "Kelly",
       "id": 1
@@ -22,15 +21,14 @@
       "id": 5
     },
     {
-      "nome": "Mimi",
-      "nomeDono": "Tomas",
-      "id": 6
-    },
-    {
       "nome": "Luna",
       "nomeDono": "Geisa",
       "id": 7
-
+    },
+    {
+      "nome": "Agatha",
+      "nomeDono": "Julia",
+      "id": 8
     }
   ]
 }

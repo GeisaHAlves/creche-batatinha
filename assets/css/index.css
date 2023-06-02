@@ -202,6 +202,18 @@ section {
 }
 
 @media screen and (max-width: 426px) {
- 
+    .cards {
+      width: auto;
+    }
+    .cards li img {
+      margin: 2px auto;
+      max-height: 20px;
+    }
+    .cards h2 {
+      font-size: 20px;
+    }
+    .card-descricao {
+      font-size: 16px;
+    }
 
 }
