@@ -2,22 +2,22 @@
 
 > Status: Em desenvolvimento
 
-Esse foi um desafio proposto pela equipe de mentores da nossa turma do programa Desenolve 2023, proposto para medir nossas habilidades
-quanto às competências adiquiridas durante o curso. Esse projeto teve colaboradores:
+Esse foi um desafio proposto pela equipe de mentores da nossa turma do programa Desenvolve 2023, proposto para medir nossas habilidades
+quanto às competências adquiridas durante o curso. Esse projeto teve os seguintes colaboradores:
 
-* Thauan-Fonseca
-* GeisaHAlves
-* tkellys
+* Thauan Fonseca
+* Geisa H Alves
+* Thamires kellys
 * Silvio Costa
-* LucasBussular
-* Erickmts10
-* IsisAriele
+* Lucas Bussular
+* Erick Matheus
+* Isis Ariele
 
 ### 📋 Desafio
-Criar um sistmea que permitisse fazer cadastros de gatinhos e seus respectivos donos, e que pudemos além de editar e apagar seus dados, imprimir um PDF com seu comportamento durante sua estadia na creche e apresentar ao seu dono. 
+Criar um sistema que permitisse fazer cadastros de gatinhos e seus respectivos donos, e que pudessemos além de editar e apagar seus dados, imprimir um PDF com seu comportamento durante a estadia na creche, e apresentar o relatório ao seu dono. 
 
 ### 🔧 Proposta
-A nossa proposta para a resolução do prblema foi a criação da creche batatinha: A missão da Creche Batatinha é fornecer um ambiente seguro, divertido e saudável para gatos enquanto seus donos estão ocupados com trabalho, viagem ou outras atividades. Nos esforçamos para cuidar de cada gato individualmente, respeitando suas necessidades, personalidades e preferências.
+A nossa proposta para a resolução do problema foi a criação da creche batatinha: A missão da Creche Batatinha é fornecer um ambiente seguro, divertido e saudável para gatos, enquanto seus donos estão ocupados com trabalho, viagem ou outras atividades. Nos esforçamos para cuidar de cada gato individualmente, respeitando suas necessidades, personalidades e preferências.
 
 ### ⌨️ Produção
 
