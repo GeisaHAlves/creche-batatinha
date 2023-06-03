@@ -2,12 +2,12 @@
 
 > Status: Em desenvolvimento
 
-Esse foi um desafio proposto pela equipe de mentores da nossa turma do programa Desenvolve 2023, proposto para medir nossas habilidades
+Esse foi um desafio proposto pela equipe de mentores da nossa turma do programa Desenvolve 2023, para medir nossas habilidades
 quanto às competências adquiridas durante o curso. Esse projeto teve os seguintes colaboradores:
 
 * Thauan Fonseca
 * Geisa H Alves
-* Thamires kellys
+* Thamires kelly
 * Silvio Costa
 * Lucas Bussular
 * Erick Matheus
@@ -36,3 +36,7 @@ Para fazer com que este programa rode na sua máquina, você precisará baixar a
 * browser-sync - Para fazer a sincronização do browser
 
 ### ⚙️ Executando o projeto
+
+https://github.com/GeisaHAlves/creche-batatinha/assets/97129805/c128dba5-d136-4782-a950-1d5e41d9b59c
+
+
