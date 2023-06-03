@@ -37,6 +37,7 @@ Para fazer com que este programa rode na sua máquina, você precisará baixar a
 
 ### ⚙️ Executando o projeto
 
-https://github.com/GeisaHAlves/creche-batatinha/assets/97129805/c128dba5-d136-4782-a950-1d5e41d9b59c
+![batatinha3](https://github.com/GeisaHAlves/creche-batatinha/assets/97129805/9ba2e0c9-127f-4a05-b836-dceb04abf55c)
+
 
 
