@@ -35,6 +35,8 @@ Para fazer com que este programa rode na sua máquina, você precisará baixar a
 * json-server - Para monitorar a página `dbgatos.json`
 * browser-sync - Para fazer a sincronização do browser
 
+Link do projeto: https://geisahalves.github.io/creche-batatinha/
+
 ### ⚙️ Executando o projeto
 
 ![batatinha3](https://github.com/GeisaHAlves/creche-batatinha/assets/97129805/9ba2e0c9-127f-4a05-b836-dceb04abf55c)
