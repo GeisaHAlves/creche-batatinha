@@ -5,21 +5,21 @@ const criaNovaLinha = (nome, nomeDono, id) => {
   const conteudo = `
    
    <div class="adiciona-miau">
-   <div class="dados-miau">
-    <img src="../assets/img/ava (1).png" alt="">
-    <td>Nome:</th>
-    <td data-td class="linhaGato" >${nome}</td>
-    </br>
-    <td>Dono: </th>
-    <td class="linhaGato" >${nomeDono}</td>
-  </div>
-  <div>
-  <button class="botao-notas">
-  <a href="../telas/notas.html?id=${id}" class="textoBotao">Lançar notas</button></a>
-  <button class="botao-notas">
-  <a href="../telas/edicao.html?id=${id}" class="textoBotao">Editar</button></a>
-  <button class="botao-excluir"> Excluir </button>
-  </div>
+    <div class="dados-miau">
+      <img src="../assets/img/ava (1).png" alt="">
+      <td>Nome:</th>
+      <td data-td class="linhaGato" >${nome}</td>
+      </br>
+      <td>Dono: </th>
+      <td class="linhaGato" >${nomeDono}</td>
+    </div>
+    <div>
+      <button class="botao-notas">
+        <a href="../telas/notas.html?id=${id}" class="textoBotao">Lançar notas</button></a>
+      <button class="botao-editar">
+        <a href="../telas/edicao.html?id=${id}" class="textoBotao">Editar</button></a>
+      <button class="botao-excluir"> Excluir </button>
+    </div>
   </div>
   
           `;
@@ -48,13 +48,10 @@ tabela.addEventListener("click", (evento) => {
 
 //-------- 4° Pegar os DADOS e EXIBIR NA TELA
 
-listagemService.listaGatos()
-.then(dados => {
-   dados.forEach(elemento => {
-   tabela.appendChild(criaNovaLinha(elemento.nome, elemento.nomeDono, elemento.id)) 
-   })
-
-})
-
-
-
+listagemService.listaGatos().then((dados) => {
+  dados.forEach((elemento) => {
+    tabela.appendChild(
+      criaNovaLinha(elemento.nome, elemento.nomeDono, elemento.id)
+    );
+  });
+});

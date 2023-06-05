@@ -69,7 +69,7 @@ body {
   margin-bottom: 16px;
 }
 
-.botao-notas, .botao-excluir {
+.botao-notas, .botao-editar, .botao-excluir {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -100,5 +100,9 @@ body {
 }
 
 @media screen and (max-width: 426px) {
+  .botao-notas, .botao-editar, .botao-excluir, .linhagato {
+    flex-basis: calc(60% - 20px);
+    max-width: calc(60% - 20px);
+  }
   
 }

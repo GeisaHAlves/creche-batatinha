@@ -1,20 +1,3 @@
-/*import { listagemService } from "../service/listagem-service";
-
-const pegaURL = new URL(window.location);
-
-console.log(pegaURL)
-
-const id = pegaURL.searchParams.get('id');
-
-const resp = document.querySelector('#idNomeMiau')
-
-listagemService.detalhaCliente(id)
-.then(dados => {
-    resp.innerText = dados.nome;
-    console.log(dados)
-})*/
-
-
 function aplicarNota(id, nota){
 
     /**Removendo todas as notas */   
@@ -50,3 +33,4 @@ const configuracao = {
 //Gerar e baixar PDF
 html2pdf().set(configuracao).from(conteudo).save();
 });
+
