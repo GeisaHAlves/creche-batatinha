@@ -18,7 +18,7 @@ const criaNovaLinha = (nome, nomeDono, id) => {
         <a href="../telas/notas.html?id=${id}" class="textoBotao">Lançar notas</button></a>
       <button class="botao-editar">
         <a href="../telas/edicao.html?id=${id}" class="textoBotao">Editar</button></a>
-      <button class="botao-excluir"> Excluir </button>
+      <button class="botao-excluir">Excluir</button>
     </div>
   </div>
   
