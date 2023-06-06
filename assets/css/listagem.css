@@ -99,10 +99,40 @@ body {
   }
 }
 
-@media screen and (max-width: 426px) {
-  .botao-notas, .botao-editar, .botao-excluir, .linhagato {
-    flex-basis: calc(60% - 20px);
-    max-width: calc(60% - 20px);
+@media (max-width: 425px) { 
+  .lista-miaus {
+    max-width: 100%;
+    margin: 8px;
   }
-  
+
+  .paragrafo-miau {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+
+  .linhaGato {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .adiciona-miau {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .dados-miau {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+
+  .botao-notas,
+  .botao-editar,
+  .botao-excluir {
+    padding: 6px 12px;
+    margin-top: 6px;
+  }
 }

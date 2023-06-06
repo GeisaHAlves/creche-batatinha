@@ -118,14 +118,14 @@ section {
 }
 
 @media only screen and (min-width: 480px) {
-  .cards li {
+    .cards li {
     flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px);
   }
   }
 
 @media only screen and (min-width: 768px) {
-  .cards {
+    .cards {
     display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
